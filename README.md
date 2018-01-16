@@ -12,7 +12,7 @@ This project started out as simply counting which artists had the most tracks in
 
 This project is built around the Spotify Python Wrapper, [Spotipy](https://github.com/plamere/spotipy), using various tools including [scikit-learn](http://scikit-learn.org/stable/) and [pandas](https://pandas.pydata.org/). *Note: Although much of this project is designed with Top 100 playlists in mind, it is still generally applicable to any playlist(s) used as input.*
 
----------
+
 ## Features
 Several different useful features are provided in this project, see the Usage and Sample Output sections for instructions on how to use each feature, and example results.
 ##### Classification and Playlist Prediction
@@ -34,7 +34,7 @@ Clustering can be performed on the data, using any combination of audio features
 
 
 
----------
+
 ## Usage
 To use the script use `python playlist_analyzer.py` with any of the following sets of parameters (Optional parameters are in square brackets):
 
@@ -68,7 +68,8 @@ To use the script use `python playlist_analyzer.py` with any of the following se
 
 *Note: The following environment variables must be set in order to run the script locally:*
 `SPOTIFY_USERNAME, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REDIRECT_URI`
----------
+
+
 ## Sample Output
 
 * TODO: Sample output - Graphs? (can embed as images) Links to files? Blockquotes?
